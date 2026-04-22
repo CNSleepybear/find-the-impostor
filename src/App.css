@@ -1,0 +1,41 @@
+/* 门卫协议 - 全局游戏样式 */
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #0c0e0c;
+  font-family: 'Courier New', monospace;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0c0e0c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3a352e;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5a8f5a;
+}
+
+/* 全局选中样式 */
+::selection {
+  background: rgba(90, 143, 90, 0.3);
+  color: #d4c9a8;
+}
